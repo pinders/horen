@@ -1,24 +1,25 @@
 {
-  "name": "horen",
-  "version": "1.0.0",
+  "name": "tao-js",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "babel ./src -d ./lib",
     "lint": "eslint ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinders/horen.git"
+    "url": "git+https://github.com/pinders/tao-js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pinders/horen/issues"
+    "url": "https://github.com/pinders/tao-js/issues"
   },
-  "homepage": "https://github.com/pinders/horen#readme",
+  "homepage": "https://github.com/pinders/tao-js#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
